@@ -1,4 +1,4 @@
-import string, random, sys
+import string, random, sys, json
 class Robot():
     def __init__(self,robot_name='', names_list=[]):
         self.robot_name=robot_name
