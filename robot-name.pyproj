@@ -5,7 +5,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{0ee54653-2fd3-482d-b972-a527a9a695ad}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>robot_name.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -20,7 +21,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="robot_name.py" />
-    <Compile Include="robot_name_test.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
 </Project>
